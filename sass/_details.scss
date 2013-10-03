@@ -1,0 +1,29 @@
+#details {
+	color:$purple;
+	font-family:'Helvetica', Arial, sans-serif;
+	margin-top:30px;
+	font-size:14px;
+	#desktop-mobile {
+		margin-top:10px;
+	}
+
+	#desktop-details {
+		margin-top:50px;
+		ul {
+			list-style-type:none;
+			list-style-position:outside;
+
+			li {
+				margin:5px 0;
+			}
+		}
+		.feature {
+			display:inline-block;
+			width:16px;
+			height:12px;
+			margin-right:8px;
+			background: url(../images/icons/feature_check.png) no-repeat 0 0;
+
+		}
+	}
+}

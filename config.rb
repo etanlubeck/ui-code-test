@@ -1,7 +1,8 @@
 # Require any additional compass plugins here.
+require "zurb-foundation"
 
 # Set this to the root of your project when deployed:
-http_path = "/"
+http_path = "/JobDemos/ui-code-test/"
 css_dir = "assets/css"
 sass_dir = "sass"
 images_dir = "assets/images"

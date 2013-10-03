@@ -1,0 +1,35 @@
+$white : #ffffff;
+$purple : #5e6079;
+$blue : #4776ef;
+$light-blue: #c4eeff;
+
+
+a {
+	color: $purple;
+
+}
+#social {
+	margin-top: 40px;
+	.signup_blurb {
+			font-family: "Gloriola Light";
+			font-size:13px;
+	}
+
+	button {
+			width:100%;
+			height:32px;
+			border-width:0;
+			font-size: 11px;
+			@include border-radius(35px);
+
+			&.fb {
+				
+				background: url(../images/fb_button.png) #4060b3 no-repeat 8px 2px;
+			}
+
+			&.google {
+				
+				background: url(../images/google_button.png) #e66251 no-repeat 8px 2px;
+			}
+	}
+}
