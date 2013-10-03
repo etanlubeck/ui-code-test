@@ -1,0 +1,3 @@
+[submodule "assets/js/underscore"]
+	path = assets/js/underscore
+	url = git@github.com:jashkenas/underscore.git
